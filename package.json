@@ -30,6 +30,8 @@
     "wagmi": "^0.9.6"
   },
   "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
     "eslint-config-prettier": "^8.5.0",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0"
