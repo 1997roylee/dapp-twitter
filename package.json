@@ -32,9 +32,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.3.0",
     "@commitlint/config-conventional": "^17.3.0",
+    "@next/eslint-plugin-next": "^13.1.1",
     "eslint-config-prettier": "^8.5.0",
     "hardhat": "^2.12.5",
     "husky": "^8.0.2",
-    "lint-staged": "^13.1.0"
+    "lint-staged": "^13.1.0",
+    "typechain": "^8.1.1"
   }
 }
