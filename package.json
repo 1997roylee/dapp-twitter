@@ -37,6 +37,7 @@
     "hardhat": "^2.12.5",
     "husky": "^8.0.2",
     "lint-staged": "^13.1.0",
+    "turbo": "^1.6.3",
     "typechain": "^8.1.1"
   }
 }
