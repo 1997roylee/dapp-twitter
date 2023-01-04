@@ -20,9 +20,27 @@
     "incremental": true,
     "baseUrl": "./src/",
     "paths": {
-      "@/components": [
+      "components": [
         "components"
-      ]
+      ],
+      "pages": [
+        "pages"
+      ],
+      "styles": [
+        "styles"
+      ],
+      "utils": [
+        "utils"
+      ],
+      "hooks": [
+        "hooks"
+      ],
+      "types": [
+        "types"
+      ],
+      "constants": [
+        "constants"
+      ],
     }
   },
   "include": [
