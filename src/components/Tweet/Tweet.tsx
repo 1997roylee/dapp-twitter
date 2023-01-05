@@ -6,7 +6,7 @@ dayjs.extend(relativeTime)
 
 interface Props {
     author: string;
-    date: string;
+    date: string | Date;
     content: string;
 }
 
