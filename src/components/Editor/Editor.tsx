@@ -18,15 +18,22 @@ const editorConfig = {
   ]
 };
 
-export default function Editor() {
+interface EditorProps {
+  // eslint-disable-next-line no-unused-vars
+  onChange?: (value: string) => void;
+}
+
+export default function Editor({ onChange }: EditorProps) {
   const handleChange = useCallback((state: EditorState) => {
     state.read(() => {
       // Read the contents of the EditorState here.
       const root = $getRoot();
       const selection = $getSelection();
 
-      console.log(root, selection);
+      onChange && onChange(root.__cachedText ?? "")
+      console.log(root.__cachedText, selection);
     });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
   return (
