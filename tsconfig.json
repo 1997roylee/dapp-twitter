@@ -41,6 +41,9 @@
       "constants": [
         "constants"
       ],
+      "stores": [
+        "stores"
+      ]
     }
   },
   "include": [
