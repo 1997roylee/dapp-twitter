@@ -5,6 +5,8 @@ async function main() {
   const contract = await contractFactory.deploy();
   await contract.deployed();
   console.log("Contract deployed to:", contract.address);
+  const transaction = await contract.mint("http://google.com")
+  await transaction.wait()
 
   const tweets = await contract.getTweets();
   console.log("We got the tweets!", tweets);
